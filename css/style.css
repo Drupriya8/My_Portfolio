@@ -416,8 +416,18 @@ section.blog .card-wrapper .card .card-content a{
     color:var(--secondary);
     text-decoration: none;
 }
+section.blog .card-wrapper .card .card-content .view-btn{
+   
+    color:var(--secondary);
+    /* text-decoration: none; */
+    padding: 7px 15px;
+    background-color: #3DCFD3;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 50%;
+}
 section.blog .card-wrapper .card .card-content a:hover{
-    color:var(--primary);
+    color: white;
 }
 section.blog .card-wrapper .card .card-content span{
    color:var(--ternary);
