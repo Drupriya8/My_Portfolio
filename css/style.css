@@ -204,6 +204,7 @@ section.about .social a img{
 }
 section.services{
     background:var(--light);
+    /* background-color: #2C3333; */
 }
 section.services .card-wrapper{
     display:grid;
@@ -327,16 +328,17 @@ section.reviews .dots li.slick-active button{
 }
 
 section.work{
-    background:var(--white);
+    /* background:var(--white); */
+    background-color: #2C3333;
 }
 section.work .card-wrapper{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    grid-gap:2rem;
+    grid-gap:3rem;
 }
 section.work .card-wrapper .card{
     position:relative;
-    height:250px;
+    height:200px;
     
 
 }
@@ -442,6 +444,8 @@ section.blog .card-wrapper .card .card-content p{
 section.blog .card-wrapper .card .card-content a.read-more{
     font-size:0.8rem;
 }
+
+
 
 section.contact .card-wrapper{
     display:grid;
